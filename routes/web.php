@@ -17,6 +17,6 @@ Route::get('/', function () {
 //注册
 Route::post('login/reg','Api\LoginController@reg');
 //登录
-Route::post('login/','Api\LoginController@login');
+Route::post('/login','Api\LoginController@login');
 //商品详情
 Route::get('list','Api\LoginController@goodlist');
